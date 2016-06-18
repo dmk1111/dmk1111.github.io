@@ -1,9 +1,77 @@
-/*Add your CSS below!*/
-#intro {
-    color: #B83C3A;
+/* .header-cont {
+    width:100%;
+    position:fixed;
+    top:0px;
 }
 
-.standout{
-    color: #F7AC5F;
-    font-family: Verdana;
+.header {
+    height:50px;
+    background:#F0F0F0;
+    border:1px solid #CCC;
+    width:960px;
+    margin:0px auto;
+} */
+
+body{
+  color:#ffffff;
+  background-color:#99c2ff;
+  font-family:Josefin Sans;
+  background-image: url("http://blueblots.com/wp-content/uploads/2010/02/31-circle-cross-blue-pattern.jpg");
+  background-attachment:fixed;
+}
+
+
+p{
+  position:relative;
+}
+
+.header{
+    color:#ffffff;
+  position:fixed;
+  width: 100%;
+  height:60px; 
+  z-index:9999;
+  font-family:Lobster;
+}
+
+#header-my-name{
+  font-size:200%;
+  text-shadow: 2px 2px 2px #000000;
+}
+
+#my-photo{
+  position:relative;
+  border-radius:50%;
+  float:right;
+  width:200px;
+}
+
+h1{
+  display:inline-block;
+}
+
+div .header button{
+  float: right;
+}
+
+.about-me{
+  font-size:150%;
+  display:inline-block;
+  width:100%;
+  margin-top:60px;
+  margin-bottom:10%;
+  padding-bottom:10%;
+  padding-top:10%;
+}
+
+div{
+  display: inline-block; 
+}
+
+.portfolio{
+  display:inline-block;
+}
+
+div h1.col-md-12{
+  margin:5%;
 }
