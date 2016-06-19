@@ -71,11 +71,13 @@ div{
   display: inline-block; 
 }
 
-.portfolio{
+#sites{
   display:inline-block;
   width:100%;
   margin-bottom:10%;
   padding-bottom:10%;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 div h1.col-md-12{
@@ -86,12 +88,18 @@ div h1.col-md-12{
   width:63%;
 }
 
-#contact-form{
+div#contact-form{
   display:inline-block;
   width:100%;
   margin-bottom:10%;
   padding-bottom:10%;
   margin-left:auto;
   margin-right:auto;
+  font-weight: bold;
 }
 
+footer{
+  margin-top:-10%;
+  margin-bottom:5%;
+  font-weight: bold;
+}
